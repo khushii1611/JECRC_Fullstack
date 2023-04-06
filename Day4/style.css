@@ -1,0 +1,89 @@
+/* The Tag Selector */
+body{
+    background-color: bisque;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+p{
+    color: blue;
+}
+
+/* dimension: px , %,em */
+/* color: name , #000000 , rgb(r,g,b) */
+
+/* class selector */
+.first_para{
+    color: red;
+}
+.red_apple{
+    background-color: rgb(164, 201, 164);
+}
+.green_apple{
+    background-color: rgb(219, 151, 151);
+}
+.circular{
+    border-radius: 100%;
+}
+
+/* ID Selector */
+#special{
+    font-weight: bold;
+    color: goldenrod;
+    background-color: rgb(193, 77, 77);
+}
+
+/* Grouping the Selectors */
+.ekGroup, h1{
+    font-weight: bold;
+    color: rgb(188, 197, 56);
+    background-color: rgb(81, 155, 82);
+}
+
+/* Pseudo Selectors */
+.apple{
+    color: brown;
+}
+.apple:hover{
+    background-color: rgb(186, 115, 115);
+    color: rgb(226, 232, 226);
+    font-weight: bold;
+}
+
+/* Playing with display */
+.square100{
+    height: 100px;
+    width: 100px;
+}
+.firstBox{
+    background-color: red;
+}
+.secondBox{
+    /* background-color: green;
+    margin-left: 100px; */
+    /* visibility: hidden; visible nahi hoga lekin vo apni jagah chodke jaega */
+    /* display: none;   invisible */
+
+    background-color: green;
+    margin-left: 20px;
+    /* margin-right: 80px; */
+    margin-top: -80px;
+
+}
+.thirdBox{
+    /* background-color: blue;
+    margin-left: 200px;
+    margin-top: -200px; */
+    background-color: blue;
+    margin-left: 40px;
+    margin-top: -80px;
+
+}
+
+.red_apple{
+    margin-top: 40px;
+    position: relative;
+    top: 40px;
+}
