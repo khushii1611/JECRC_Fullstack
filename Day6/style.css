@@ -1,0 +1,59 @@
+/* defining the global variables */
+:root {
+    --primaryColor: #577D86;
+    --backgroundcolor: #c2efe8;
+    --myTitleFont: 'Dancing Script', cursive;
+    --fontdefaultTextFont: 'Lato', sans-serif;
+    --fontdefaultHeading: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.top-section {
+    color: var(--primaryColor);
+    background-color: var(--backgroundcolor);
+    /* height: 500px; */
+    text-align: center;
+    padding-top: 200px;
+}
+
+.heading-group {
+    /* display: inline-block; */
+    /* margin-top: 100px; */
+
+}
+
+.heading {
+    font-family: var(--myTitleFont);
+    font-size: 55px;
+}
+
+.bio {
+    font-family: var(--fontdefaultTextFont);
+    font-size: 0.95em;/*1em=16px*/
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.top-cloud {
+    position: absolute;
+    margin-block-start: -20px;
+    margin-left: 250px;
+    width: 100px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -50px;
+    width: 100px;
+}
+
+.mountain {
+    width: 400px;
+}
+img{
+    margin-bottom: -5px
+}
